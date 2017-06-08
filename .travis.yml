@@ -1,5 +1,6 @@
 sudo: false
 language: ruby
+cache: bundler
 rvm:
   - jruby
 before_install:
@@ -7,3 +8,4 @@ before_install:
 script:
   - bundle exec rake vendor
   - bundle exec rake spec
+jdk: oraclejdk8
