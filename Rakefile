@@ -16,4 +16,3 @@ task :install_jars do
 end
 
 task :vendor => :install_jars
-task :default => [:vendor, :spec]
